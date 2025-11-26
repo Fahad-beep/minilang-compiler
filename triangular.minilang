@@ -1,0 +1,7 @@
+n = 7;
+i = 1;
+while (i <= n) {
+    triangular = i * (i + 1) / 2;
+    print(triangular);
+    i = i + 1;
+}

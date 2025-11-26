@@ -1,0 +1,18 @@
+n = 10;
+count = 0;
+num = 2;
+while (count < n) {
+    isPrime = 1;
+    i = 2;
+    while (i * i <= num + 1) {
+        if (num % i == 0) {
+            isPrime = 0;
+        }
+        i = i + 1;
+    }
+    if (isPrime == 1) {
+        print(num);
+        count = count + 1;
+    }
+    num = num + 1;
+}

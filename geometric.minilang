@@ -1,0 +1,14 @@
+a = 2;
+r = 3;
+n = 6;
+i = 0;
+while (i < n) {
+    term = a;
+    j = 0;
+    while (j < i) {
+        term = term * r;
+        j = j + 1;
+    }
+    print(term);
+    i = i + 1;
+}

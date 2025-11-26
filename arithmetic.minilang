@@ -1,0 +1,9 @@
+a = 5;
+d = 3;
+n = 8;
+i = 0;
+while (i < n) {
+    term = a + i * d;
+    print(term);
+    i = i + 1;
+}
